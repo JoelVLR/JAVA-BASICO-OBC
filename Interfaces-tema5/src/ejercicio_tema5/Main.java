@@ -4,15 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CocheCRUD cocheCRUD = new CocheCRUDImpl();
+        CocheCRUD cocheCrud = new CocheCRUDImpl();
 
-        cocheCRUD.save();
-
-        cocheCRUD.findAll();
-
-        cocheCRUD.delete();
-
-
-        System.out.println(cocheCRUD);
+        System.out.println(cocheCrud);
     }
 }

@@ -1,21 +1,34 @@
 package ejercicio_tema5;
 
-import java.util.List;
+
 
 public class CocheCRUDImpl implements CocheCRUD{
 
+
     @Override
-    public <Save> Save save() {
-        return null;
+    public void save() {
+
     }
 
     @Override
-    public <FindAll> FindAll findAll() {
-        return null;
+    public void findAll() {
+
     }
 
     @Override
-    public <Delete> Delete delete() {
-        return null;
+    public void delete() {
+
+    }
+    String save = "guardando";
+    String findAll = "Buscar Todo";
+    String delete = "Borrando";
+
+    @Override
+    public String toString() {
+        return "CocheCRUDImpl{" +
+                "save='" + save + '\'' +
+                ", findAll='" + findAll + '\'' +
+                ", delete='" + delete + '\'' +
+                '}';
     }
 }

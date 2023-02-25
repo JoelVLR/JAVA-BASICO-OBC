@@ -4,9 +4,7 @@ import java.util.List;
 
 public interface CocheCRUD {
 
-    <Save> Save save();
-
-     <FindAll> FindAll findAll();
-
-    <Delete> Delete delete();
+    void save();
+     void findAll();
+    void delete();
 }
